@@ -30,6 +30,7 @@
     background-repeat:no-repeat;
     background-position:right;
     padding-right: 40px;
+    transition: all 1 s ease-in;
 }
 .final-step__btn:active {
     transform: translateX(3px);

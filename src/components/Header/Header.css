@@ -12,6 +12,7 @@ font-size: 20px;
     height:6px;
     width:100%;
     background: blue;
- 
+    transition: all 1 s ease-in;
+
 
 }

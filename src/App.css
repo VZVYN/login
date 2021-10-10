@@ -95,6 +95,7 @@ input[type=number] {
 .form{
   margin-top:60px;
   width:400px;
+  transition: all 1 s ease-in;
 
   
   
