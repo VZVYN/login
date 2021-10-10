@@ -1,0 +1,54 @@
+.final-step{
+    margin-top:60px;
+    width:400px;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content: center;
+}
+.final-step__img{
+    width:223px;
+    height:223px;
+    background-image: url("../../img/chek1-min.png") ;
+    background-image: cover;
+    background-color: transparent;
+    background-size: 200px;
+    background-position: center;
+}
+
+.final-step__btn{
+    border:1px solid #018ABE;
+    color: #018ABE;
+    border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    font-size: 16px;
+    padding: 15px 40px;
+    margin-top:60px;
+    background-color: transparent;
+    background-image: url("../../img/arrow_forward.png");
+    background-repeat:no-repeat;
+    background-position:right;
+    padding-right: 40px;
+}
+.final-step__btn:active {
+    transform: translateX(3px);
+    box-shadow: 0 5px 10px rgba(128, 130, 238, 0.2);
+    
+}
+
+
+.final-step__btn:hover {
+    
+    box-shadow: 0 10px 20px rgba(133, 154, 247, 0.432);
+}
+.final-step__btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+}
+

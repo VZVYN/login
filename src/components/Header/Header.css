@@ -1,0 +1,17 @@
+.logo{
+    width: 100%;
+    padding: 10px 0;
+}
+.logo__text{
+color:#0c79d3;
+text-align: center;
+margin-bottom: 20px;
+font-size: 20px;
+}
+.logo__progress{
+    height:6px;
+    width:100%;
+    background: blue;
+ 
+
+}

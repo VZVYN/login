@@ -1,0 +1,133 @@
+
+.span-error{
+  color: rgb(209, 19, 19);
+  margin-top: 20px;
+  position:absolute;
+ margin-top: 10px;
+}
+.form-second{
+    margin-top:60px;
+    width:400px;
+
+}
+.form-second__title{
+    text-align:center;
+    margin:0 0 20px 0;
+}
+.form-second__date{
+  position:relative;
+    display: flex;
+    justify-content:center;
+    margin:0 0 40px 0;
+   
+}
+.form-second__data-item{
+    display: block;
+    padding:10px;
+    width: 120px;
+    border: 1px solid #999;
+    text-align: center;
+  
+}
+.form-second__data-item-DD{
+    border-right: none; 
+     border-radius: 6px 0px 0px 6px;
+}
+.form-second__data-item-YYYY{
+    border-left: none;
+    border-radius: 0px 6px 6px 0px;
+}
+
+
+
+.form_radio_group {
+	display: inline-block;
+	overflow: hidden;
+  color:#A59490;
+}
+.form_radio_group-item {
+	display: inline-block;
+	float: left;    
+}
+.form_radio_group input[type=radio] {
+	display: none;
+}
+.form_radio_group label {
+	display: inline-block;
+	cursor: pointer;
+	padding: 3px;
+    text-align: center;
+    width:120px;
+	line-height: 34px;
+	border: 1px solid #999;
+	border-right: none;
+	user-select: none;
+}
+ 
+.form_radio_group .form_radio_group-item:first-child label {
+	border-radius: 6px 0 0 6px;
+}
+.form_radio_group .form_radio_group-item:last-child label {
+	border-radius: 0 6px 6px 0;
+	border-right: 1px solid #999;
+}
+ 
+/* Checked */
+.form_radio_group input[type=radio]:checked + label {
+	background: blue;
+    color: white;
+}
+ 
+/* Hover */
+.form_radio_group label:hover {
+	color: #666;
+}
+ 
+/* Disabled */
+.form_radio_group input[type=radio]:disabled + label {
+	background: #efefef;
+	color: #666;
+}
+
+.select-arrow-3 {
+    position: absolute;
+    z-index: -9999;
+    border: 8px solid transparent; 
+    border-bottom: 0;
+    right: 6px;
+  }
+  .select-arrow-3:nth-child(1) {
+    top: 11px;
+    border-top-color: #018ABE;
+  }
+  .select-arrow-3:nth-child(2) {
+    top: 8px;
+    border-top-color: #FFF;
+  }
+  .select-wrapper {
+    position: relative;
+    width: 300px;
+   
+    border: 1px solid grey;
+    border-radius: 3px;
+    
+  }
+  
+  .select-wrapper:hover {
+    box-shadow: 0px 0px 3px gray;
+  }
+  
+  .select-wrapper select {
+    width: 300px;
+    height: 28px;
+    padding: 0 20px 0 7px;
+    background: transparent;
+    border: 0;
+    appearance: none;            /* remove arrow        */
+    -webkit-appearance: none;    /* remove arrow Chrome */
+    -moz-appearance: none;       /* remove arrow FF     */
+  }
+  .select-wrapper select::-ms-expand{
+      display: none;             /* remove arrow IE     */
+  }
+  
