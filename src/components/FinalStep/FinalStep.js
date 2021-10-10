@@ -1,7 +1,7 @@
 import React ,{useState} from 'react'
 import "./FinalStep.css"
 import {  useSelector } from "react-redux";
-import ReactJson from 'react-json-view'
+
 import View from '../View/View';
 function getJSONData(valuesfirst,valuessecond){
     const data={...valuesfirst}

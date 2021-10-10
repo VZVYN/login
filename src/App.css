@@ -90,16 +90,22 @@ input[type=number] {
   align-items: center;
   margin-top: 20px;
   position: relative;
+  border-radius: 7px;
 }
-
+@media (max-width: 600px) {
+  .wrapper {
+    width:400px;
+  }
+}
 .form{
   margin-top:60px;
   width:400px;
   transition: all 1 s ease-in;
-
-  
-  
-  
+}
+@media (max-width: 600px) {
+  .form {
+    width:350px;
+  }
 }
 .form__text{
   width: 100%;
